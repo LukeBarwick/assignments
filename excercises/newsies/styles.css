@@ -1,0 +1,29 @@
+h1.title {
+    font-family: 
+    font-size: 60px;
+    text-align: center;
+    border-style: ridge;
+    border-width: thick;
+    border-color: #000
+
+
+
+}
+h2 {
+    display: inline;
+    border-style: ridge;
+    border-color: #000
+    text-align: left;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+p.leftarticle {
+    border-style: ridge;
+    float: left;
+    display: inline;
+    width: 700px;
+}
+img {
+    float: right;
+}

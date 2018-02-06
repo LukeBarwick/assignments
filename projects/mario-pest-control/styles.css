@@ -1,0 +1,67 @@
+body{
+    background: linear-gradient(
+        to bottom,
+        rgba(255,255,255, 0.5),
+        rgba(100,100,100, 0.1)
+        ), url(https://images6.alphacoders.com/431/thumb-1920-431019.jpg);
+
+    /* background-image: url("https://images6.alphacoders.com/431/thumb-1920-431019.jpg"); */
+}
+
+
+div {
+    display: inline-block;
+    background-color: #FF540D;
+    opacity: 0.9;
+    border-radius: 0;
+    border-color: black;
+    border-width: 25px;
+    border-style: ridge;
+}
+ul{
+    display: inline-block;
+}
+#goomba {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+}
+
+#bob {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+}
+#cheepCheep {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+}
+#peach {
+    height: 374px;
+    width: 250px;
+    display: inline-block;
+}
+input {
+    display: inline-block;
+}
+h1 {
+    align-self: center;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    font-size: 155px;
+    display: block;
+    margin-left: 240px;
+}
+li {
+    font-size: 30px;
+    font-family: 'Supermercado One';
+}
+#peachUl {
+    width: min-content;
+}
+p {
+    font-size: 30px;
+    font-family: 'Supermercado One';
+}

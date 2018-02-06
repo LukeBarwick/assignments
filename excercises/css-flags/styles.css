@@ -1,0 +1,159 @@
+div.big {
+    background-color: white;
+    height: 250px;
+    width: 400px;
+    display:inline-block;
+    position: relative;
+    border:1px;
+    border-color: black;
+    border-style: solid;
+}
+div.blue {
+    width: 33%;
+    height: 250px;
+    background-color: blue;
+    display:inline-block;
+    position:absolute;
+    left:0;
+}
+div.red {
+    width: 33%;
+    height: 250px;
+    background-color: red;
+    display:inline-block;
+    position:absolute;
+    right:0;
+}
+div.germany {
+    background-color: red;
+    height: 250px;
+    width: 400px;
+    display:inline-block;
+    position: relative;
+    border:1px;
+    border-color: black;
+    border-style: solid;
+}
+div.gerRed {
+    width: 400px;
+    height: 33%;
+    background-color: black;
+    display:inline-block;
+    position:absolute;
+    left:0;
+}
+div.gerYellow {
+    width: 400px;
+    height: 33%;
+    background-color: yellow;
+    display:inline-block;
+    position:absolute;
+    bottom:0;
+}
+div.madagascarBig {
+    background-color: white;
+    height: 250px;
+    width: 400px;
+    display:inline-block;
+    position: relative;
+    border:1px;
+    border-color: black;
+    border-style: solid;
+}
+div.madagascarRed {
+    width: 66%;
+    height: 50%;
+    background-color: red;
+    display:inline-block;
+    position:absolute;
+    right: 0;
+    top: 0;
+}
+div.madagascarGreen {
+    width: 66%;
+    height: 50%;
+    background-color: green;
+    display:inline-block;
+    position:absolute;
+    bottom:0;
+    right: 0;
+}
+div.switz{
+    background-color: red;
+    height: 250px;
+    width: 366px;
+    display:inline-block;
+    position: relative;
+    border:1px;
+    border-color: black;
+    border-style: solid;
+}
+div.vert{
+    background-color: white;
+    height: 150px;
+    width: 50px;
+    display:inline-block;
+    position:absolute;
+    top: 0;
+    left: 0;
+    transform: translate(310%,39%);
+}
+div.hori{
+    background-color: white;
+    height: 45px;
+    width: 174px;
+    display: inline-block;
+    position: absolute;
+    top: 111px;
+    left: 91px;
+}
+div.gambia {
+    background-color: darkblue;
+    height: 250px;
+    width: 400px;
+    display:inline-block;
+    position: relative;
+    border:1px;
+    border-color: black;
+    border-style: solid;
+}
+div.gaRed {
+    width: 400px;
+    height: 100px;
+    background-color: red;
+    display:inline-block;
+    position:absolute;
+
+}
+div.gaBlue {
+    width: 400px;
+    height: 100px;
+    background-color: red;
+    display:inline-block;
+    position:absolute;
+    left:0;
+}
+div.gaGreen {
+    width: 400px;
+    height: 92px;
+    background-color: darkgreen;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translate(0%,163%);
+}
+div.white {
+    background-color: white;
+    height: 25px;
+    width: 400px;
+    display: inline-block;
+    position: absolute;
+    bottom: 144%;
+}
+div.white2 {
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+}

@@ -20,7 +20,7 @@
 //    ]
 // }
 var proGamer = {
-    name: "Bjergson",.
+    name: "Bjergson",
     age: 24,
     from: "Denmark",
     role: "Mid lane",
@@ -38,13 +38,16 @@ var proGamer = {
             from: "Sweden",
             role: "ADC",
         }
-    ],   
+    ],
     favoriteChampions: ["Kalista", "Vayne", "Twitch"]
-            bestChampions: [
-                {
-                    championNames: ["Tristana", "Caitlyn", "Kalista"]
 
-                }
-            ]
+    championNames: ["Tristana", "Caitlyn", "Kalista"]
+
+    game; function myMethod(a, b) {
+                return a + b;
+            }
+        }
+
         }
 }
+myMethod(proGamer.age,proGamer.from)

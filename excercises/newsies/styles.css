@@ -1,5 +1,5 @@
 h1.title {
-    font-family: 
+    font-family:
     font-size: 60px;
     text-align: center;
     border-style: ridge;
@@ -12,7 +12,7 @@ h1.title {
 h2 {
     display: inline;
     border-style: ridge;
-    border-color: #000
+    border-color: #000;
     text-align: left;
     font-size: 35px;
     font-weight: bold;
@@ -22,8 +22,23 @@ p.leftarticle {
     border-style: ridge;
     float: left;
     display: inline;
-    width: 700px;
+    width: 600px;
+
+}
+p.rightArticle {
+    border-style: ridge;
+    float: right;
+    display: inline;
+    width: 600px;
+}
+p.middleArticle {
+
+    border-style: ridge;
+    border-width: 1px;
 }
 img {
-    float: right;
+    height: 500px;
+    width: 600px;
+    float:right;
+    display: inline-block;
 }

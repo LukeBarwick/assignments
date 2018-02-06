@@ -2,6 +2,108 @@
     box-sizing: border-box;
     font-size: 0px;
 }
-.boxes {
-    
+.lightPinkBox {
+    height: 130px;
+    width: 100%;
+    border-color: white;
+    background-color: #F5C6D6;
+    border-width: 10px;
+    border-style:solid;
+
 }
+.pinkBoxes {
+    height: 130px;
+    width: 25%;
+    background-color: #EE2E84;
+    display: inline-block;
+    border-color: white;
+    border-width: 10px;
+    border-right: white;
+    border-style: solid;
+}
+.blueBoxes {
+    height: 130px;
+    width: 50%;
+    display: inline-block;
+    border-color: white;
+    border-width: 10px;
+    border-right: white;
+    border-style: solid;
+    background-color: #85CFD8;
+
+}
+.greenBox {
+    height: 130px;
+    width: 75%;
+    background-color: #8DC63F;
+    display: inline-block;
+    border-color: white;
+    border-width: 10px;
+    border-right: white;
+    border-style: solid;
+
+}
+.orangeBox {
+    height: 130px;
+    width: 25%;
+    background-color: #E76E34;
+    display: inline-block;
+    border-color: white;
+    border-width: 10px;
+    border-right: white;
+    border-style: solid;
+
+}
+@media screen and (max-width: 768px)  {
+    .lightPinkBox {
+        height: 100px;
+        width: 100%;
+        border-color: white;
+        background-color: #F5C6D6;
+        border-width: 10px;
+
+
+    }
+    .pinkBoxes {
+        height: 100px;
+        width: 100%;
+        background-color: #EE2E84;
+        display: inline-block;
+        border-color: white;
+        border-width: 10px;
+        
+
+    }
+    .blueBoxes {
+        height: 100px;
+        width: 100%;
+        display: inline-block;
+        border-color: white;
+
+        border-right: white;
+
+        background-color: #85CFD8;
+
+    }
+    .greenBox {
+        height: 100px;
+        width: 100%;
+        background-color: #8DC63F;
+        display: inline-block;
+        border-color: white;
+        border-width: 10px;
+        border-right: white;
+        border-style: solid;
+
+    }
+    .orangeBox {
+        height: 100px;
+        width: 100%;
+        background-color: #E76E34;
+        display: inline-block;
+        border-color: white;
+        border-width: 10px;
+        border-right: white;
+        border-style: solid;
+
+}}

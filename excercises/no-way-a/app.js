@@ -13,3 +13,4 @@ var removeA = function(str) {
 
 console.log(removeA("unhappy camper"))
 console.log(removeA("unhappy campasr"))
+console.log(removeA("Anderson Silva always asks mama"))

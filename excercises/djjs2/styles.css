@@ -1,0 +1,110 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-width: : 3px;
+    border-color: green;
+    border-style: ridge;
+    border-radius: 10%;
+    display: inline-block;
+    text-align: center;
+    color: yellow;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    vertical-align: top;
+}
+#box1 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-width: : 3px;
+    border-color: green;
+    border-style: ridge;
+    border-radius: 10%;
+    display: inline-block;
+    text-align: center;
+    color: darkred;
+    transition-property: all;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    transition-duration: 3s;
+}
+#box1:hover {
+    background-color: white
+}
+
+#box2 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-width: : 3px;
+    border-color: green;
+    border-style: ridge;
+    border-radius: 10%;
+    display: inline-block;
+    text-align: center;
+    transition-property: all;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    transition-duration: 4s;
+}
+#box2:hover {
+    height: 250px;
+    width: 250px;
+}
+
+#box3 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-width: : 3px;
+    border-color: green;
+    border-style: ridge;
+    border-radius: 10%;
+    display: inline-block;
+    text-align: center;
+    transition-property: all;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    transition-duration: 4s;
+}
+
+#box3:hover {
+    height: 80px;
+    width: 80px;
+}
+
+#box4 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-width: : 3px;
+    color: black;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border-color: green;
+    border-style: ridge;
+    border-radius: 10%;
+    display: inline-block;
+    text-align: center;
+    transition-property: all;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    transition-duration: 2s;
+}
+
+#box4:hover {
+    box-shadow: 10px 10px 5px 0 blue;
+    border-radius: 0;
+    color: white;
+}

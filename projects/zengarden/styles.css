@@ -1,70 +1,181 @@
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
 .container {
+    background-size: cover;
     height: 100%;
+    width: 100%;
     display: grid;
-    background-color: lightblue;
-    grid-template-rows: 310px 700px 700px 700px 310px;
-    grid-template-columns: 3fr 1fr;
-    grid-gap: 1px;
+    grid-template-rows: 310px 700px 700px 700px 510px;
+    grid-template-columns: repeat(12, 1fr);
+    position: absolute;
+    top: 0;
+    left: 0;
     z-index: 1;
     grid-template-areas:
-        "h sh"
-        "ct st"
-        "cc sc"
-        "cb sb"
-        "f f"
-
-
-
-
-
-
-
+        "h h h h h h h h h h h h"
+        "ct ct ct ct ct ct ct ct st st st st"
+        "cc cc cc cc cc cc cc cc sc sc sc sc"
+        "cb cb cb cb cb cb cb cb sb sb sb sb"
+        "f f f f f f f f f f f f"
 }
 
-
-}
 .header {
     grid-area: h;
-    background-color: brown;
+    background-image: url("http://www.csszengarden.com/214/huntington.jpg");
+    background-size: cover;
     z-index: 2;
+    height: 310px;
+    width: 100%;
+    display: grid;
+    text-align: center;
+
 }
-.sideHeader {
-    grid-area: sh;
-    background-color: purple;
-    z-index: 2;
+
+.headerChild {
+
+    background-image: url("http://www.csszengarden.com/214/gridlines.png");
+    background-size: cover;
+    z-index: 3;
+    display: grid;
+    height: 310px;
+    width: 100%;
+
+}
+.childChild {
+    background-image: url("http://www.csszengarden.com/214/enso.svg");
+    background-size: cover;
+    height: 188px;
+    position: absolute;
+    left: 2%;
+    top: 9%;
+    width: 15%;
+    display: grid;
+    grid-column: 14/2;
+}
+#headerH1{
+    color: #fff;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 180%;
+    top: 55px;
+    left: 460px;
 }
 .conTop {
     grid-area: ct;
-    background-color: darkred;
+    background-color: #fff;
     z-index: 2;
+    height: 100%;
+    width: 100%;
+    display: grid;
 }
 .sideTop {
     grid-area: st;
     background-color: green;
     z-index: 2;
+    height: 100%;
+    width: 100%;
+    display: grid;
 }
 .contCenter {
     grid-area: cc;
     background-color: blue;
     z-index: 2;
+    height: 100%;
+    width: 100%;
+    display: grid;
 }
 .sideCenter {
     grid-area: sc;
     background-color: red;
     z-index: 2;
+    height: 100%;
+    width: 100%;
+    display: grid;
 }
 .contBottom {
     grid-area: cb;
     background-color: gold;
     z-index: 2;
+    height: 100%;
+    width: 100%;
+    display: grid;
 }
 .sideBottom {
     grid-area: sb;
     background-color: pink;
     z-index: 2;
+    height: 100%;
+    width: 100%;
+    display: grid;
 }
 .footer {
     grid-area: f;
-    background-color: darkgreen;
-    z-index: 2;
+    background-image: url("http://www.csszengarden.com/214/koi.jpg");
+    background-size: cover;
+    z-index: 1;
+    height: 310px;
+    width: 100%;
+    display: grid;
 }
+.footerChild2 {
+    background-image: url("http://www.csszengarden.com/214/gridlines.png");
+    z-index: 2;
+    height: 310px;
+    width: 100%;
+    display: grid;
+}
+@media only screen and (max-width: 1132px) {
+    .container {
+        height: 100%;
+        display: grid;
+        background-color: lightblue;
+        grid-template-rows: 310px 700px 700px 700px 310px 310px 310px;
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: 1px;
+        z-index: 1;
+        grid-template-areas:
+            "h h h h h h h h h h h h"
+            "ct ct ct ct ct ct ct ct ct ct ct ct"
+            "cc cc cc cc cc cc cc cc cc cc cc cc"
+            "cb cb cb cb cb cb cb cb cb cb cb cb"
+            "f f f f f f f f f f f f"
+            "st st st st st st st st st st st st"
+            "sc sc sc sc sc sc sc sc sc sc sc sc"
+
+
+    }
+    .header {
+        grid-area: h;
+        background-color: darkgreen;
+        z-index: 2;
+        height: 135%;
+        width: 100%;
+        display: grid;
+    }
+    .headerChild {
+            grid-area: hc;
+            background-color: purple;
+            z-index: 2;
+            height: 200px;
+            width: 100%;
+            display: grid;
+            grid-column: 1/-1
+    }
+    .sideHeader {
+        display: none;
+    }
+    .sideBottom {
+        display: none;
+    }
+    .childChild {
+        background-image: url("http://www.csszengarden.com/214/enso.svg");
+        background-size: cover;
+        height: 245px;
+        width: 245px;
+        display: grid;
+        grid-column: 14/2;
+    }
+
+
+    }

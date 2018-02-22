@@ -45,8 +45,8 @@
     background-size: cover;
     height: 188px;
     position: absolute;
-    left: 2%;
-    top: 9%;
+    left: 0%;
+    top: 3%;
     width: 15%;
     display: grid;
     grid-column: 14/2;
@@ -55,11 +55,11 @@
     color: #fff;
     position: absolute;
     height: 300px;
-    width: 300px;
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 180%;
+    width: 620px;
+    font-family: 'Julius Sans One',sans-serif;
+    font-size: 380%;
     top: 55px;
-    left: 460px;
+    left: 277px;
 }
 .conTop {
     grid-area: ct;
@@ -124,6 +124,9 @@
     height: 310px;
     width: 100%;
     display: grid;
+}
+p {
+    font-family: 'Libre Baskerville',sans-serif; 
 }
 @media only screen and (max-width: 1132px) {
     .container {

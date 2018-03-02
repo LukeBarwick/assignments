@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #171716;
+    color: whitesmoke;
+}
+
+nav.navbar > h1 {
+    margin: 0 auto;
+}
+.link {
+    padding: 5px;
+    height: 15px;
+    width: 15px;
+    color: darkgreen;
+}
+ 

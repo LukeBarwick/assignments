@@ -1,0 +1,29 @@
+.Cost {
+    color:red;
+    border-width: 1px;
+    border-color: black;
+    border-style: ridge;
+
+}
+.Time {
+    color: blue;
+    border-width: 1px;
+    border-color: red;
+    border-style: ridge;
+
+}
+.Location {
+    color: black;
+    border-width: 1px;
+    border-color: blue;
+    border-style: ridge;
+
+}
+.block {
+    background-color: greenyellow;
+    border-width: 5px;
+    border-color: black;
+    border-style: ridge;
+    margin: 10px;
+
+}

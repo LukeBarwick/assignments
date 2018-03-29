@@ -6,4 +6,4 @@ function createPass(length) {
 
     return text;
 }
-console.log(createPass(10));
+console.log(createPass(15));
